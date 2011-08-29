@@ -1,1 +1,2 @@
-div.adaptorate { border: 1px dotted #ccc; width: 100%; margin: .5em 0; }
+div.adaptorate { border: 1px dotted #ccc; width: 100%; margin: .5em 0; display:none;}
+div.adaptorate.active { display: block; }

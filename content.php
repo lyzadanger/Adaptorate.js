@@ -6,5 +6,5 @@
  */
 if ($_GET['element_id']) {
   header('content-type:text/html');
-  print '<p>You have requested element "' . $_GET['element_id'] . '"</p>';
+  print '<p>This content was retrieved via AJAX: "' . $_GET['element_id'] . '"</p>';
 }

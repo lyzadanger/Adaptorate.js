@@ -118,7 +118,7 @@ $('.adaptorate').Adaptorate({ breakpoints : [
   { name: 'wide', width : { min : 1000}}],
   retrieve  : 'content.php'
 
-    });
+  });
   $('#current_stats').bind('adaptorateChange', function(event, i_am, i_was) {
     var i_am_list = Array();
     for (thing in i_am) {
